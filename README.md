@@ -1,6 +1,6 @@
-# pxt-bitcar
+# pxt-mybitcar
 
-
+for bluetooth control
 
 ## TODO
 
