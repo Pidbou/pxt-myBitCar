@@ -1,21 +1,19 @@
 {
     "name": "pxt-mybitcar",
-    "version": "0.0.1",
-    "description": "My BitCar extension for micro:bit",
-    "license": "MIT",
     "dependencies": {
         "core": "*",
+        "bluetooth": "*"
     },
     "files": [
         "README.md",
-        "bitcar.ts",
+        "_locales/pxt-bitcar-jsdoc-strings.json",
+        "_locales/pxt-bitcar-strings.json",
+        "_locales/zh/pxt-bitcar-jsdoc-strings.json",
         "_locales/zh/pxt-bitcar-strings.json",
-        "_locales/zh/pxt-bitcar-jsdoc-strings.json"
+        "bitcar.ts",
+        "test.ts",
+        "tsconfig.json"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "public": true,
     "targetVersions": {
         "target": "4.0.17",
         "targetId": "microbit"
