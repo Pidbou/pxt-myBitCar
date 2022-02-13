@@ -1,5 +1,5 @@
 {
-    "name": "pxt-bitcar",
+    "name": "pxt-mybitcar",
     "version": "0.0.1",
     "description": "The BitCar extension for micro:bit",
     "license": "MIT",
@@ -17,6 +17,10 @@
         "test.ts"
     ],
     "public": true,
+    "targetVersions": {
+        "target": "4.0.17",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
